@@ -2,10 +2,9 @@ from urllib.request import Request, urlopen
 
 def fetch_random_dad_joke() -> str:
     """
-    Differen text -> Conflict 
-
-    Made in main branch
+    Fetch a random joke
     """
+
     req = Request(
         url="https://icanhazdadjoke.com/",
         headers={
